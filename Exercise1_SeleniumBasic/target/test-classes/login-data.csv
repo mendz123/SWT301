@@ -1,0 +1,10 @@
+username,password,expectedResult
+tomsmith,SuperSecretPassword!,success
+wronguser,SuperSecretPassword!,error
+tomsmith,wrongpassword,error
+, ,error
+wrong@gmail.com,SuperSecretPassword!,error
+0912345678,SuperSecretPassword!,error
+invalidEmail@,123,error
+,SuperSecretPassword!,error
+tomsmith,,error
